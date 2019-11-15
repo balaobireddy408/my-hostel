@@ -1,1 +1,1 @@
-# my-hostel-api
+# my-hostel-app
