@@ -1,10 +1,5 @@
 import styled from "styled-components";
 
-const StyledLink = styled.a`
-  color: palevioletred;
-  font-weight: bold;
-`;
-
 const Box = styled.div`
   display: flex;
   height: 70px;
@@ -12,4 +7,4 @@ const Box = styled.div`
   background-color: #edeff8;
 `;
 
-export { StyledLink, Box };
+export { Box };
