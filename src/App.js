@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import PageHeader from "./imports/pageHeader";
+import Home from "./imports/pages/home";
 
 function App() {
   return (
     <div className="App">
-      <PageHeader />
+      <Home />
     </div>
   );
 }
