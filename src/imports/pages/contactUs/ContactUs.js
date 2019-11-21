@@ -1,15 +1,21 @@
 import React from "react";
 
-import { Section } from "./styledComponents";
+import { Section, Title } from "./styledComponents";
 
 const ContactUs = () => {
   return (
     <Section>
-      <h1>Contact Us</h1>
-      <div>Please contact us admin for your queries</div>
-      <div>Phone No: 9492872085</div>
-      <div>Email Id: balaobireddy408@gmail.com</div>
-      <div>Address : Hyderabad</div>
+      <Title>Contact Us</Title>
+      <p>Please contact us admin for your queries</p>
+      <p>
+        <strong>Phone No:</strong> 9492872085
+      </p>
+      <p>
+        <strong>Email Id:</strong> balaobireddy408@gmail.com
+      </p>
+      <p>
+        <strong>Address :</strong> Hyderabad
+      </p>
     </Section>
   );
 };
