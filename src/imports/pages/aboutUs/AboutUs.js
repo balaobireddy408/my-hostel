@@ -1,13 +1,13 @@
 import React from "react";
 
-import { Section } from "./styledComponents";
+import { Section, Title } from "./styledComponents";
 
 const AboutUs = () => {
   return (
     <Section>
-      <h1> About Us</h1>
-      <div>Good maintenace</div>
-      <div>Full fill your requirements</div>
+      <Title> About Us</Title>
+      <p>Good maintenace</p>
+      <p>Full fill your requirements</p>
     </Section>
   );
 };
