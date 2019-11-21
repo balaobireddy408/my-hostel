@@ -5,6 +5,7 @@ import PageHeader from "../../pages/pageHeader";
 import PageFooter from "../../pages/pageFooter";
 import ContactUs from "../../pages/contactUs";
 import AboutUs from "../../pages/aboutUs";
+import Login from "../../pages/login";
 import * as Routes from "../../routes/Routes";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <PageHeader />
       <Route path={Routes.ContactUs} component={ContactUs} />
       <Route path={Routes.AboutUs} component={AboutUs} />
+      <Route path={Routes.Login} component={Login} />
       <PageFooter />
     </Router>
   );
